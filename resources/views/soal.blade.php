@@ -8,7 +8,7 @@
 <body>
 <h2>Data Tugas</h2>
 <br />
-@if(Auth::user()->role=='admin')
+@if(Auth::user()->role=='guru')
 
 <button class="btn btn-primary" data-toggle="modal" data-target="#TambahSoal">Tambah Tugas</button>
 
